@@ -23,8 +23,8 @@ async fn get_pokemon_detail_fetches_details_of_pokemon() {
     assert_eq!(pokemon.id, 1);
     assert_eq!(pokemon.name, "bulbasaur");
     assert_eq!(pokemon.base_experience, 64);
-    assert_eq!(pokemon.height, 64);
-    assert_eq!(pokemon.weight, 64);
+    assert_eq!(pokemon.height, 7);
+    assert_eq!(pokemon.weight, 69);
 }
 
 #[test_log::test(tokio::test)]
