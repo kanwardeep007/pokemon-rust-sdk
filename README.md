@@ -25,7 +25,7 @@ Currently the SDK only supports the following
 4. `PokemonSdk` can be used to fetch pokemon details. Eg `PokemonSdk.pokemon().pokemon_details("Pikachu")`
 5. When using `PokemonSdk` to fetch list of pokemons you can pass in `PaginationConfig` which decides how many results will be loaded. Eg. `pokemon_sdk.pokemon().list_pokemons(Some(PaginationConfig::get_default()))`
 
-For more details check the examples folder. It contains sample code on how to use the SDK.
+For more details check the `examples` folder. It contains sample code on how to use the SDK.
 
 
 # How to test
